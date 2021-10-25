@@ -1,0 +1,71 @@
+@import "headerymenu";
+@import "tabla";
+@import "footer";
+@import "formularios";
+@import "mediaqueries";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+$width: 1024px;
+
+
+#container {
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+  border: 1px solid lightgray;
+  box-shadow: 0px 0px 10px #ccc;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+iframe{
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  width: $width / 512px * 45%;
+  height: $width/3;
+}
+
+
+
+/*FORMAS DE PAGO*/
+aside {
+    justify-content: center;
+
+    h3{
+        text-align: center;
+        padding-top: 2rem;
+        margin: 1rem;
+
+    }
+  }
+  
+  .pagos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    text-align: center;
+        __img{
+            justify-content: center;
+            align-items: center;
+        }
+  }
+  
+.texto{
+  font-family: "Oswald";
+  justify-content: center;
+  color: black;
+  padding: 2px;
+  font-size: 2rem;
+    __parrafo{
+      font-size: 1.5rem;
+    }
+}  

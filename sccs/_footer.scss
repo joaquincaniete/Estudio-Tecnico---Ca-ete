@@ -1,0 +1,25 @@
+.footer{
+    
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;   
+    background-color: lightgray;
+    height: 140px;
+    background-image: linear-gradient(to top, black, lightgray);
+
+    &__redes{
+        font-size: 2rem;
+        color: white;
+    }
+
+    &__texto{
+       font-size: 2rem;
+
+        &--italica{
+            color: black;
+            text-decoration: none;
+            font-style: italic;
+        }
+
+    }
+}

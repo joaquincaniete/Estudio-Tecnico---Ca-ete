@@ -1,0 +1,43 @@
+$tb1:  #D5DEFC;
+$tb2: #B8CEE6; 
+$tb3: #CBF2FE;
+
+.titulos{
+    font-family: "Oswald";
+    &__texto{
+      justify-content: center;
+      color: burlywood;
+    }
+  }
+
+@mixin fila ($tb){
+    background-color: $tb !important;
+    color: black !important;
+      &__columna1{
+        font-weight: bolder !important;
+      }
+      &__columna2{
+        font-weight: normal !important;
+        
+      }
+      &__columna3{
+        font-weight: normal !important;
+        font-style: italic !important;
+        
+      }
+}
+
+
+.fila1{
+    @include fila($tb1);
+  
+  }
+  .fila2{
+    @include fila($tb2);
+  
+  }
+  
+  .fila3{
+    @include fila($tb3);
+  
+  }
