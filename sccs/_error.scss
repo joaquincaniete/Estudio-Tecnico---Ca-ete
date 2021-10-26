@@ -1,0 +1,17 @@
+.error_container{
+   
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    color: white;
+        h1{
+            font-size: 60px;
+        }
+        p{
+            font-size: 18px;
+        }
+}
